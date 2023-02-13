@@ -1,13 +1,15 @@
 body {
   background: #090909;
 }
-
-.bg-black {
-  background: #000;
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0px;
+  border: 0px;
 }
 
 .card-project:hover {
-  border: 1px solid #eee;
+  border: 1px solid #ff0000;
   cursor: pointer;
 }
 
@@ -32,93 +34,23 @@ body {
   top: 0px;
 }
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
-.myimage{
-  height: 300px;
-  border-radius: 50% !important;
-  margin: 15px;
-}
-
-.aboutmeh3{
-  margin: 0px !important;
-  letter-spacing: 1px;
-}
-
-.titulos{
-  margin: 0px !important;
-  letter-spacing: 1px;
-}
-
-p {
-  line-height: 2rem;
-}
-
 .sidenav-trigger {
   color: #26a69a;
 }
 
-.carousel .carousel-item {
-  width:400px !important;
-}
-
-.myhighlight{
-  border-radius: 5px;
-  font-size: 13px;
-  letter-spacing: 1px;
-}
-
-.mytitle{
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-.mysubtitle{
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.mysubtitle2{
-  letter-spacing: 1px;
-}
-
-.mycontact{
-  margin-bottom: 0px;
-  font-size: 19px;
-  text-decoration: underline;
-}
-
-.aboutme{
-  font-size: 19px;
-  text-align:justify !important;
-  text-justify: inter-word !important;
-  /* for IE9 */
-  text-align-last:center !important;
-}
-
 .icono{
   color: teal !important;
+}
+
+.nav-item{
+  margin-top: 15px;
 }
 @media only screen and (max-width : 992px) {
 
 }
 
 @media only screen and (max-width : 600px) {
-  .myimage{
-  height: 100px;
-  }
-
-  .aboutmeh3{
-    font-size: 30px;
-  }
-
-  .aboutme{
-    text-align: justify !important;
-    text-justify: auto !important;
-  } 
+ 
 }
 
 footer.page-footer {
