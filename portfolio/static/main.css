@@ -16,11 +16,18 @@ body {
 }
 
 .link{
-  color: #000;
+  color: #69a5ff;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
+.link:hover{
+  color: #fc6363;
+}
+  
+
 .logo{
-  width: 100px;
+  width: 70px;
   display: flex;
   top: 0px;
 }
