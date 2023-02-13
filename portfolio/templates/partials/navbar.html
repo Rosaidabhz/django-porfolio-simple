@@ -1,0 +1,53 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'portfolio/main.css'%}">
+<script type="text/javascript" src="{% static 'portfolio/init.js' %}"></script>
+
+ <!-- Barra de navegacion  -->
+ <div class="navbar-fixed">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper">
+      <div class="container">
+        <a id="logo-container" href="#inicio" class="brand-logo">
+          <img class="logo" src="static/portfolio/images/logo.png">
+        </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="link" href="#inicio">Inicio</a></li>
+          <li><a class="link" href="#servicios">Servicios</a></li>
+          <li><a class="link" href="#expertos">Expertos</a></li>
+          <li><a class="link" href="#trabajos">Trabajos</a></li>
+          <li><a class="link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<ul id="mobile-demo" class="sidenav sidenav-close" style="width:200px">
+  <br>
+  <li>
+    <a href="#inicio">
+    <i class="material-icons icono">home</i>Inicio
+    </a>
+  </li>
+  <li>
+    <a href="#servicios">
+      <i class="material-icons icono">work</i>Servicios
+    </a>
+  </li>
+  <li>
+    <a href="#expertos">
+      <i class="material-icons icono">layers</i>Expertos
+    </a>
+  </li>
+  <li>
+    <a href="#trabajos">
+      <i class="material-icons icono">perm_media</i>Trabajos
+    </a>
+  </li>
+  <li>
+    <a href="#contacto">
+      <i class="material-icons icono">phone</i>Contacto
+    </a>
+  </li>
+</ul>
