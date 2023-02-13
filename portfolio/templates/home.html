@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="{% static 'portfolio/main.css'%}">
 
 <!-- Hero Section -->
-<header class="row ">
+<header id="sobremi" class="row ">
   <div class="col-md-4">
     <img class="girl-icon" src="{% static 'portfolio/girl-icon.png' %}" />
   </div>
@@ -20,10 +20,9 @@
 </header>
 
 <!-- Porfolio Section -->
-<div class="row my-4 text-center">
+<div id="proyectos" class="row my-4 text-center">
 
-  <h3>My Projects</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam?</p>
+  <h3>Mis Proyectos</h3>
 
   {% for project in projects %}
   <div class="col-md-4 p-4">
