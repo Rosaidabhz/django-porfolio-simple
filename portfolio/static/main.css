@@ -143,8 +143,9 @@ text-transform: lowercase;
   font-weight: 500px;
   font-size: 40px;
 }
+
 .service{
-  background-color: rgb(250, 222, 218);
+  background-color: rgb(218, 248, 250);
   justify-content: center;
   flex-direction: column;
 }
@@ -156,6 +157,12 @@ text-transform: lowercase;
 }
 .card{
   width: 300px;
+}
+.titulos{
+  color: rgb(68, 53, 53);
+  font-family: 'poppins';
+  font-weight: 500px;
+  font-size: 40px;
 }
 @media only screen and (max-width : 992px) {
   .girl-icon{
