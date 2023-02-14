@@ -105,8 +105,8 @@ h2,p,h3{
 }
 .projects-title{
   color: rgb(185, 185, 185);
-  font-family: 'ruda';
-  font-weight: 600;
+  font-family: 'poppins';
+  font-weight: 500px;
   font-size: 30px;
 }
 .card{
