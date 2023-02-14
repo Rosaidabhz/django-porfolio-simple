@@ -115,15 +115,13 @@ h2,p,h3{
 }
 .text-fisrt{
   font-family: 'arial';
-  font-weight: 550;
-  font-size: 18px;
-  line-height: 34px;
-text-transform: lowercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: lowercase;
+  color: #141010;
 }
-.saludo{
-  font-size: 50px;
-  
-}
+
 .especialidad{
   font-size: 25px;
   font-family: 'poppins';
@@ -138,12 +136,15 @@ text-transform: lowercase;
 
 }
 .text-service{
-  color: rgb(68, 53, 53);
+  color: rgb(255, 255, 255);
   font-family: 'poppins';
   font-weight: 500px;
   font-size: 40px;
 }
+#habilidades{
+  background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--a67XH0QN--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/xndmxrfhliweofif9jty.png");
 
+}
 .service{
   background-color: rgb(218, 248, 250);
   justify-content: center;
@@ -163,7 +164,9 @@ text-transform: lowercase;
   font-family: 'poppins';
   font-weight: 500px;
   font-size: 40px;
+  color: #69a5ff;
 }
+
 @media only screen and (max-width : 992px) {
   .girl-icon{
     width: 400px;
