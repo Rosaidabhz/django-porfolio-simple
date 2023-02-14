@@ -107,7 +107,7 @@ h2,p,h3{
   color: rgb(68, 53, 53);
   font-family: 'poppins';
   font-weight: 500px;
-  font-size: 30px;
+  font-size: 40px;
 }
 .card{
   width: 200px;
@@ -136,6 +136,26 @@ text-transform: lowercase;
   font-weight: 600;
   color: #69a5ff;
 
+}
+.text-service{
+  color: rgb(68, 53, 53);
+  font-family: 'poppins';
+  font-weight: 500px;
+  font-size: 40px;
+}
+.service{
+  background-color: rgb(250, 222, 218);
+  justify-content: center;
+  flex-direction: column;
+}
+.container-service{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  justify-content: center;
+  gap:1rem;
+}
+.card{
+  width: 300px;
 }
 @media only screen and (max-width : 992px) {
   .girl-icon{
