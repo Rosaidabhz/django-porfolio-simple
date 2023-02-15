@@ -1,3 +1,6 @@
+
+/* Style General */
+
 body {
   background: #ffffff;
 }
@@ -7,39 +10,118 @@ body {
   padding: 0px;
   border: 0px;
 }
-h2,p,h3{
-  color: #000000;
+h1,h2,p,h3{
+  color: rgb(0, 0, 0);
 }
-.card-img-top{
-  width: 300px;
+
+html {
+  scroll-padding-top: 60px; 
 }
-.card-body{
-  width: 300px;
+
+
+/* Style header */
+.parallax-container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.text-saludo{
+  color: white;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+/* Style NavBar */
+.link{
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+.logo{
+  width: 70px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  top: 0px;
+}
+
+.link:hover{
+  color: #bcd2ff;
+}
+
+
+.sidenav-trigger {
+  color: #fdc345;
+}
+
+.icono{
+  color: #fdc345;
+}
+
+.nav-item{
+  margin-top: 15px;
+}
+
+/* Style sobremi */
+.text-fisrt{
+  font-family: 'arial';
+  font-weight: 600px;
+  font-size: 20px;
+  text-transform: lowercase;
+  line-height: 34px;
+  letter-spacing: 0.155em;
 
 }
-.cardt{
-  width: 305px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;color: #ffffff;
+
+.especialidad{
+  font-size: 25px;
+  font-family: 'poppins';
+  font-weight: 500;
 }
+.especialidad-1{
+  font-size: 25px;
+  font-family: 'poppins';
+  font-weight: bold;
+
+}
+.girl-icon{
+  width: 600px;
+  height: 600px;
+}
+/* Style habilidades */
+
+.text-icons{
+  font-size: 20px;
+  font-weight: 400px;  
+}
+.icons{
+  width: 50px;
+  height: 50px;
+}
+.card-title{
+  font-family: 'poppins';
+  font-weight: 700px;
+  cursor: pointer;
+}
+.open{
+  cursor: pointer;
+
+}
+.habilidades-title{
+  font-size: 20px;
+  font-weight: 500px;
+  font-family: 'poppins';
+}
+
+/* Style prtfolio */
 #proyectos{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   justify-content: center;
+  gap:1rem;
 }
 .card-project:hover {
-  border: 1px solid #ff0000;
+  border: 1px solid #ff7b00;
   cursor: pointer;  
 
-}
-
-.card-body{
-  background-color: #ffffff;
 }
 .card-project{
   background-color: #b9b9b9;
@@ -50,103 +132,62 @@ h2,p,h3{
 
 .title-project{
   font-size: 30px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-
- html {
-  scroll-padding-top: 60px; 
-}
-
-.link{
-  color: #69a5ff;
-  font-family: 'Poppins';
-  font-weight: 600;
-}
-
-.link:hover{
-  color: #fc6363;
-}
-  
-.girl-icon{
-  width: 600px;
-  height: 600px;
-}
-.logo{
-  width: 70px;
-  display: flex;
-  top: 0px;
-}
-.col-md-8{
-  color: #000;
-}
-.sidenav-trigger {
-  color: #26a69a;
-}
-
-.icono{
-  color: teal !important;
-}
-
-.nav-item{
-  margin-top: 15px;
-}
-
-.parallax-container{
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.text-saludo{
-  color: white;
-  font-family: 'Poppins';
-  font-weight: 400;
-}
-.projects-title{
-  color: rgb(68, 53, 53);
-  font-family: 'poppins';
   font-weight: 500px;
+  font-family: 'poppins';
+}
+.text-project{
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.card-img-top{
+  max-width: 100%;
+}
+.card-body{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card.hoverable{
+  border-radius: 20%;
+}
+.card-image{
+  border-top-left-radius: 24%;
+  border-top-right-radius: 24%;
+}
+.cardt{
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #110d0d;
+}
+
+
+.card-body{
+  background-color: #ffffff;
+}
+
+.projects-title{
+  font-family: 'poppins';
+  font-weight: 600px;
   font-size: 40px;
 }
 .card{
   width: 200px;
   gap: 2rem;
 }
-.text-fisrt{
-  font-family: 'arial';
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
-  text-transform: lowercase;
-  color: #141010;
-}
 
-.especialidad{
-  font-size: 25px;
-  font-family: 'poppins';
-  font-weight: 500;
-  color: #000000;
-}
-.especialidad-1{
-  font-size: 25px;
-  font-family: 'poppins';
-  font-weight: 600;
-  color: #69a5ff;
-
-}
 .text-service{
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: 'poppins';
   font-weight: 500px;
   font-size: 40px;
 }
-#habilidades{
-  background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/09/software_developer_learn_web_development.jpg");
 
-}
 .service{
-  background-color: rgb(218, 248, 250);
   justify-content: center;
   flex-direction: column;
 }
@@ -160,12 +201,11 @@ h2,p,h3{
   width: 300px;
 }
 .titulos{
-  color: rgb(68, 53, 53);
   font-family: 'poppins';
-  font-weight: 500px;
+  font-weight: bold;
   font-size: 40px;
-  color: #69a5ff;
 }
+/* Style media */
 
 @media only screen and (max-width : 992px) {
   .girl-icon{
@@ -202,6 +242,8 @@ h2,p,h3{
     height: 50px;
   }
 }
+/* Style foonter */
+
 footer.page-footer {
   margin: 0;
 }
