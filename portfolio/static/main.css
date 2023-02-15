@@ -132,7 +132,7 @@ html {
 
 .title-project{
   font-size: 30px;
-  font-weight: 500px;
+  font-weight: 800px;
   font-family: 'poppins';
 }
 .text-project{
@@ -142,9 +142,12 @@ html {
 
 .card-img-top{
   max-width: 100%;
+  height: 100%;
+
 }
 .card-body{
   max-width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -158,6 +161,7 @@ html {
 }
 .cardt{
   max-width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -174,6 +178,8 @@ html {
   font-family: 'poppins';
   font-weight: 600px;
   font-size: 40px;
+  justify-content: center;
+  text-align: center;
 }
 .card{
   width: 200px;
@@ -248,3 +254,21 @@ footer.page-footer {
   margin: 0;
 }
 
+/*********************************/
+
+.educacion{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  justify-content: center;
+  gap:1rem;
+}
+.edu-text{
+  font-size: 18px;
+  font-weight: 500px;
+  font-family: 'poppins';
+}
+.title-edu{
+  font-size: 18px;
+  font-weight: 500px;
+  font-family: 'poppins';
+}

@@ -46,14 +46,75 @@
   <div class="parallax"><img src="static/portfolio/images/FERcH4oXIAsk9LU.jpg" alt="background img 1"></div>
 </div>
 
-<div class="container p-4">
+<div class="container">
   {% block content %}
   {% endblock %}
 </div> 
- <!-- MIS SERVICIOS -->
-<div  id="habilidades" class="service">
+<h2 class="header text center orange-text">Educacion</h2>
+
+<div class="Educacion">
+  <div class="col s12 m7">
+    <div class="card horizontal indigo darken-4">
+      <div class="card-stacked">
+        <div class="card-content blue">
+          <p class="edu-text white-text" >Obtuve mi titulo de Tecnico en Contabilidad en Venezuela</p>
+        </div>
+        <div class="card-action indigo darken-4">
+          <a class="teal-text text-darken-2 title-edu">Tecnica Popular Don Bosco</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m7">
+    <div class="card horizontal indigo darken-4">
+      <div class="card-stacked indigo darken-4">
+        <div class="card-content red lighten-2">
+          <p class="edu-text white-text" >Hice un bootcamps Developer Web full Stack de 6 meses en Colombia con Educamas</p>
+        </div>
+        <div class="card-action indigo darken-4">
+          <a class="teal-text text-darken-2 title-edu">simplonline.co Educamas</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m7">
+    <div class="card horizontal">
+      <div class="card-stacked">
+        <div class="card-content ">
+          <p class="edu-text" >Sigo estudiando para obtener mas conocimientos Frontend/backend</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Porfolio Section --> 
+<div class="text center"><h3 class="projects-title  pink-text text-lighten-3">Mis Proyectos</h3><br></div>
+
+ <div id="proyectos" class="container col s7 push-s5 cartas text-center">
+
+   {% for project in projects %}
+   <div class="cartas">
+     <div class="cardt  card-project">
+       <img src="{{project.image.url}}" class="card-img-top" />
+ 
+       <div class="card-body  indigo darken-4">
+ 
+         <h2 class="title-project white-text" >{{ project.title }}</h2>
+         <p class="text-project white-text">{{ project.description }}</p>
+ 
+         {% if project.url %}
+         <a href="{{project.url}}" class="btn btn-light rounded-0 btn-sm" target="__blank" rel="noreferrer">Ver proyecto</a>
+         {% endif %}
+       </div>
+     </div>
+   </div>
+   {% endfor %}
+</div>
+ <!-- MIS CONOCIMIENTOS -->
+<div  id="conocimientos" class="service">
   <br>
-  <h3 class="text-service center  pink-text text-lighten-3">Habilidades</h3>
+  <h3 class="text-service center  pink-text text-lighten-3">Conocimientos</h3>
   <div class="container-service">
       <div class="card hoverable indigo darken-4">
         <div class="card-image waves-effect waves-block waves-light">
@@ -145,7 +206,6 @@
   </div>
   <br>
 </div>
-
    <!-- contacto  -->
  <div class="container section" id="contacto">
   <div class="row">
@@ -183,6 +243,8 @@
     </div>
   </div>
 </div>
+
+
 
  <!-- Compiled and minified JavaScript -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
