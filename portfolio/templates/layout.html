@@ -89,10 +89,8 @@
 </div>
 
  <!-- Porfolio Section --> 
-<div class="text center"><h3 class="projects-title  pink-text text-lighten-3">Mis Proyectos</h3><br></div>
-
- <div id="proyectos" class="container col s7 push-s5 cartas text-center">
-
+<div class="text center"><h3 class="projects-title  pink-text text-lighten-3">Mis Proyectos</h3></div>
+ <div id="proyectos" class="container-potfolio cartas text-center">
    {% for project in projects %}
    <div class="cartas">
      <div class="cardt  card-project">
@@ -100,7 +98,7 @@
  
        <div class="card-body  indigo darken-4">
  
-         <h2 class="title-project white-text" >{{ project.title }}</h2>
+         <h2 class="title-project white-text orange-text text-darken-3" >{{ project.title }}</h2>
          <p class="text-project white-text">{{ project.description }}</p>
  
          {% if project.url %}

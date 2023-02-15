@@ -112,11 +112,12 @@ html {
 }
 
 /* Style prtfolio */
-#proyectos{
+.container-potfolio{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   justify-content: center;
-  gap:1rem;
+  gap:3rem;
+  padding: 30px;
 }
 .card-project:hover {
   border: 1px solid #ff7b00;
