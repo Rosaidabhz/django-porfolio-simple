@@ -29,7 +29,9 @@ html {
 .text-saludo{
   color: white;
   font-family: 'Poppins';
-  font-weight: bold;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 50px;
 }
 
 /* Style NavBar */
@@ -44,16 +46,12 @@ html {
 }
 
 .link:hover{
-  color: #bcd2ff;
+  color: #518bff;
 }
 
 
 .sidenav-trigger {
-  color: #fdc345;
-}
-
-.icono{
-  color: #fdc345;
+  color: #ffe600;
 }
 
 .nav-item{
