@@ -10,7 +10,7 @@ class Project(models.Model):
     image = ImageField(upload_to="portfolio/images")
     url = URLField(blank=True)
     date = DateField(default=date.today)
-    link = models.CharField(max_length=255)
+    link = URLField(blank=True)
 
 
     def __str__(self) -> str:
