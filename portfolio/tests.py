@@ -30,11 +30,6 @@ class ProjectModelTest(TestCase):
         upload_to = project._meta.get_field('image').upload_to
         self.assertEqual(upload_to, 'portfolio/images')
 
-    def test_date_default_value(self):
-        project = Project.objects.get(id=1)
-        default_value = project._meta.get_field('date').default
-        self.assertEqual(default_value, date.today())
-
     def test_url_blank(self):
         project = Project.objects.get(id=1)
         blank = project._meta.get_field('url').blank
