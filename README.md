@@ -1,4 +1,4 @@
-# django-porfolio-simple
+# Django porfolio
 Realice mi portafolio en django, esto con el fin de poner mostrar todos los proyectos que desarrolle en el bootcamp.
 
 #Deploy
